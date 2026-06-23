@@ -17,7 +17,7 @@
 }
 
 /* Profile Image */
-.hero .profile-img{
+ .profile-img{
       width: 280px;
             height: 280px;
             border-radius: 50%;
@@ -32,7 +32,7 @@
     transition:all 0.4s ease;
 }
 
-.hero .profile-img:hover{
+.profile-img:hover{
     transform:
         translateY(-10px)
         scale(1.05);
