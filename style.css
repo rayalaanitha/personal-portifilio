@@ -11,7 +11,25 @@ html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Seg
 .navbar-brand{font-weight:700;letter-spacing:.3px}
 
 .hero{padding:5.5rem 0 3.5rem;background:linear-gradient(120deg, rgba(108,92,231,0.06), rgba(0,184,148,0.03));border-bottom-left-radius:18px;border-bottom-right-radius:18px}
-.hero .profile-img{width:160px;height:160px;object-fit:cover;border-radius:50%;border:6px solid rgba(255,255,255,0.95);box-shadow:0 10px 30px rgba(16,24,40,0.06);background:#fff}
+.hero .profile-img{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #ffffff;
+    background: #fff;
+    box-shadow:
+        0 0 0 8px rgba(108,92,231,0.15),
+        0 15px 35px rgba(0,0,0,0.15);
+    transition: all 0.4s ease;
+}
+
+.hero .profile-img:hover{
+    transform: translateY(-8px) scale(1.03);
+    box-shadow:
+        0 0 0 10px rgba(108,92,231,0.25),
+        0 20px 40px rgba(0,0,0,0.20);
+}
 .hero h1{font-size:1.9rem;margin-top:0;font-weight:700}
 .hero .lead{color:var(--muted);margin-bottom:1rem}
 .btn-primary{background:var(--accent);border:none}
