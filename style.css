@@ -22,16 +22,8 @@
     height: 320px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: center 20%;
 
-    /* Move image downward inside circle */
-    object-position: center top;
-
-    border: 8px solid white;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-
-    display: block;
-    margin: auto;
-}
 }
 
 .profile-img:hover{
